@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/melencholicmice/Teamify/issues"
   },
-  "homepage": "https://github.com/melencholicmice/Teamify#readme"
+  "homepage": "https://github.com/melencholicmice/Teamify#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
