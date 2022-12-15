@@ -58,7 +58,7 @@ const TeamType = new GraphQLObjectType({
         event: {type: EventType},
         teamDescription: { type: GraphQLString },
         requirements: { type: GraphQLString },
-        currentTeamMembers: GraphQLList(TeamMemberType),
+        currentTeamMembers: new GraphQLList(TeamMemberType),
     })
 });
 
