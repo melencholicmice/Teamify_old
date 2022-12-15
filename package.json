@@ -4,7 +4,8 @@
   "description": "A application to keep track of all the team participating in events and hackthrons in across the college",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
